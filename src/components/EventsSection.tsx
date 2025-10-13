@@ -9,11 +9,11 @@ const SAMPLE_EVENTS: Event[] = [
   {
     id: "1",
     title: "IEEE DAY CELEBRATION 2025",
-    description: "<description here>",
+    description: "Celebrate IEEE Day 2025 with us! 🎉 Get ready for an inspiring journey from Campus to Career 🚀, an exclusive session by Silver Oak University IEEE Student Branch, where learning meets real-world experience! 🎤 Join us as Mr. Neel Mishra takes the stage to share insightful lessons from his professional journey, not only guiding students toward success but also inspiring them to build a purpose-driven career. ✨",
     date: "October 14, 2025",
     time: "11:00 P.M. Onwards",
-    image: "http://ieee.socet.edu.in/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-05-at-11.30.48_8421c034.jpg",
-    link: ""
+    image: "http://ieee.socet.edu.in/wp-content/uploads/2025/10/ieeeday2025.jpeg",
+    link: "https://shorturl.at/Oi8HW"
   }
 ];
 
