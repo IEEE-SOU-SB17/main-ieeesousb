@@ -8,10 +8,10 @@ import { cn } from "@/lib/utils";
 const SAMPLE_EVENTS: Event[] = [
   {
     id: "1",
-    title: "AI Pe Charcha",
-    description: "",
-    date: "August 12, 2025",
-    time: "10:00 Onwards",
+    title: "IEEE DAY CELEBRATION 2025",
+    description: "<description here>",
+    date: "October 14, 2025",
+    time: "11:00 P.M. Onwards",
     image: "http://ieee.socet.edu.in/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-05-at-11.30.48_8421c034.jpg",
     link: ""
   }
