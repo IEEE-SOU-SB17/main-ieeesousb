@@ -51,6 +51,10 @@ const NAV_ITEMS: NavItem[] = [
   {
     title: "Contact Us",
     href: "/contact",
+  },
+  {
+    title:"AdminPanel",
+    href:"/Admin"
   }
 ];
 
@@ -88,21 +92,26 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center">
-              <img
-                loading="lazy"
-                src={
-                  theme === "dark"
-                    ? "http://ieee.socet.edu.in/wp-content/uploads/2025/09/Group-2085662984-1-scaled.png"
-                    : "http://ieee.socet.edu.in/wp-content/uploads/2025/09/N_Wedge-removebg-preview.png"
-                }
-                alt="IEEE SOU SB Logo"
-                className="h-9 w-auto md:h-16 object-contain"
-                style={{ maxWidth: "350px" }}
-              />
-            </Link>
-          </div>
+          {/* the below div has been changed to decrease size of dark mode (last change) */}
+<div className="flex-shrink-0">
+  <Link to="/" className="flex items-center">
+    <img
+      loading="lazy"
+      src={
+        theme === "dark"
+          ? "http://ieee.socet.edu.in/wp-content/uploads/2025/09/Group-2085662984-1-scaled.png"
+          : "http://ieee.socet.edu.in/wp-content/uploads/2025/09/N_Wedge-removebg-preview.png"
+      }
+      alt="IEEE SOU SB Logo"
+      className={cn(
+        "w-auto object-contain", // width is auto for both modes
+        theme === "dark" ? "h-8 md:h-12" : "h-12 md:h-20", // conditional height for dark mode
+        theme === "dark" ? "max-w-[300px]" : "max-w-[350px]" // conditional max-width for dark mode
+      )}
+    />
+  </Link>
+</div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex md:items-center md:space-x-1">
