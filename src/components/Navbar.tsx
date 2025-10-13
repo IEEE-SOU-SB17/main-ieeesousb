@@ -51,10 +51,6 @@ const NAV_ITEMS: NavItem[] = [
   {
     title: "Contact Us",
     href: "/contact",
-  },
-  {
-    title:"AdminPanel",
-    href:"/Admin"
   }
 ];
 
