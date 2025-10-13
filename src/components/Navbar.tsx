@@ -42,7 +42,6 @@ const NAV_ITEMS: NavItem[] = [
       { title: "Advisory Board", href: "/team/advisory-board" },
       { title: "Executive Members", href: "/team/executive-members" },
       { title: "Core Members", href: "/team/core-members" },
-      { title: "Members", href: "/team/members" },
     ],
   },
   {
