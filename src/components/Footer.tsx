@@ -140,7 +140,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-4 md:pt-6 border-t border-border/50 text-center">
           <p className="text-xs md:text-sm text-muted-foreground">
-            &copy; Copyright Silver Oak University IEEE SB. All Rights Reserved.
+            &copy; 2025 Copyright Silver Oak University IEEE SB. All Rights Reserved.
           </p>
         </div>
       </div>
